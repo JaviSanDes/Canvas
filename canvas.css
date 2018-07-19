@@ -1,0 +1,95 @@
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.btn-wrapper{
+  background-color: rgb(40, 45, 50);
+}
+#canvas{
+  background-color: rgb(40, 45, 50);
+}
+.controls{
+  position: absolute;
+  width: 340px;
+  height: 120px;
+  border-radius: 8px;
+  top: 70%;
+  left: 40%;
+  background: rgba(30, 52, 142, 0.5);
+  opacity: 0.8;
+}
+.range{
+  position:absolute;
+  /*border: 1px solid blue;*/
+  width: 170px;
+  height: 40px;
+  top: 30px;
+}
+.range1{
+  left: 170px;
+}
+.line{
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+}
+.bola{
+  left: 18px;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-color: yellow;
+  border-radius: 5px;
+  top:25px;
+}
+.letrero{
+  position: absolute;
+  top: 0px;
+  width: 40px;
+  height: 22px;
+  background: yellow;
+  opacity: 1;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.boton{
+  position: absolute;
+  top: 80px;
+  width: 70px;
+  height: 30px;
+  color: black;
+  text-shadow: -2px 2px #346392;
+  background-color: #ff9664;
+  box-shadow: inset 0 0 0 1px #27496d;
+  border: none;
+  border-radius: 8px;
+}
+#boton1{
+  left: 5%;
+}
+#boton2{
+  left: 38%;
+}
+#boton3{
+  left: 70%;
+}
+.boton:hover{
+  box-shadow: inset 0 0 0 1px #27496d,0 5px 15px #193047;
+}
+.boton:active{
+  box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #193047;
+}
