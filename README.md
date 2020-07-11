@@ -2,4 +2,4 @@
 
 ## Live Demo
 
-https://canvas-js-animation-app.herokuapp.com/
+https://canvas-f00be.web.app/
